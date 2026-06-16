@@ -1,14 +1,4 @@
-import express from "express";
-import cors from "cors";
-
-const app = express();
-
-app.use(cors());
-app.use(express.json());
-
-// 🔽 AQUÍ van tus rutas
-// app.use("/login", loginRoutes);
-// app.use("/clientes", clientesRoutes);
+import app from "./app.js";
 
 const PORT = process.env.PORT || 3000;
 
